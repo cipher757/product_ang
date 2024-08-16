@@ -11,3 +11,9 @@
     </ion-toolbar>
   </ion-header>
 </ion-content>
+
+<ion-list>
+  <ion-item *ngFor="let product of products">
+    <ion-label>{{product.name}}</ion-label>
+  </ion-item>
+</ion-list>
